@@ -7,11 +7,12 @@ tags:
   - Forensics
 ---
 
-ستستلم صورة بأمتداد jpg [Begin Hack.jpg][Begin-Hack.jpg]
-[Begin-Hack.jpg]: [https://mega.nz/file/LoABFK5K#0sEKbsU3sBUG8zWxpBfD1bQx_JY_MuYEWQvLrFIqWZ0]
+ستستلم صورة بأمتداد jpg [Begin Hack.jpg][Begin-Hack]
+[Begin-Hack]: https://mega.nz/file/LoABFK5K#0sEKbsU3sBUG8zWxpBfD1bQx_JY_MuYEWQvLrFIqWZ0
 
 بإمكانك استخدام اداة `strings` , أو موقع [aperisolve][aperi-solve]
-[aperi-solve]: [https://www.aperisolve.com]
+[aperi-solve]: https://www.aperisolve.com
+
 ومن ثم تظهر لك عدة بيانات منها "`- https://mega.nz/#!z8hACJbb!vQB569ptyQjNEoxIwHrUhwWu5WCj1JWmU-OFjf90Prg -N17hGnFBfJliykJxXu8 -" , "Mp real_unlock_key: Nothing Is As It SeemsU" , "password: Really? Again" , "flag{Not_So_Simple...}" . 
 
 المطلوب من هذه البيانات (الرابط , والعبارة الاولى ) نقوم بالدخول على الرابط , يظهر لنا ملف مضغوط بأسم "Up For A Little Challenge
