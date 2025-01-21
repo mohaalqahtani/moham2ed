@@ -4,13 +4,13 @@ layout: single
 author_profile: true
 ---
 
-# About me
+# عني 🙋🏻‍♂️
 
 ss
 
-## Education
+## تعليمي 📖
 
-- **Information Technology** - Graduate in 2024.
+- **تقنية المعلومات** - تخرجت في عام 2024.
 
 ## What (I think) I know:
 
