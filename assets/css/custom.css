@@ -1,0 +1,22 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: "Tajawal", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: right;
+}
+
+.post-content, .page__content {
+    direction: rtl;
+    text-align: right;
+}
+
+nav {
+    direction: rtl;
+}
+
+img, figure {
+    float: right;
+}
