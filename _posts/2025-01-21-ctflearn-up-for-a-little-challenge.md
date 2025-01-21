@@ -6,7 +6,7 @@ categories:
 tags:
   - Forensics
 ---
-<img src="https://img.shields.io/badge/Forensics-0083C3?style=for-the-badge"> <img src="https://img.shields.io/badge/Medium-FF9800?style=for-the-badge">
+<img src="https://img.shields.io/badge/CTF%20Learn-232323?style=for-the-badge"> <img src="https://img.shields.io/badge/Forensics-0083C3?style=for-the-badge"> <img src="https://img.shields.io/badge/Medium-FF9800?style=for-the-badge">
 
 
 ستستلم صورة بأمتداد jpg [Begin Hack][Begin-Hack]
