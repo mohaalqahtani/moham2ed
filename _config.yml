@@ -59,14 +59,14 @@ plugins:
 
 
 author:
-  name   : "Mohammed Al-Qahtani"
+  name   : "محمد القحطاني"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Interested In Everything About ( 🖥️ )"
+  bio    : "مهتم بكل شيء حول ( 🖥️ )"
   links:
     #- label: "Website"
      # icon: "fas fa-fw fa-link"
      # url: "https://"
-    - label: "Twitter"
+    - label: "أكس (تويتر)"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/20_h"
     - label: "GitHub"
