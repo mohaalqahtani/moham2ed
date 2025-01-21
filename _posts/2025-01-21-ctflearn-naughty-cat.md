@@ -1,5 +1,5 @@
 ---
-title: "CTFLearn : Digital Camouflage"
+title: "CTFLearn : Naughty Cat"
 date: 2025-01-21T11:11:11+03:00
 categories:
   - CTFLearn
