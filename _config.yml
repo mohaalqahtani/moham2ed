@@ -56,8 +56,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-sass:
-  custom_css: assets/css/custom.css
 
 author:
   name   : "Mohammed Al-Qahtani"
