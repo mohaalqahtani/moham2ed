@@ -7,7 +7,7 @@ tags:
   - Forensics
 ---
 
-ستستلم صورة بأمتداد jpg [Begin Hack.jpg][Begin-Hack]
+ستستلم صورة بأمتداد jpg [Begin Hack][Begin-Hack]
 
 
 بإمكانك استخدام اداة `strings` , أو موقع [aperisolve][aperi-solve]
