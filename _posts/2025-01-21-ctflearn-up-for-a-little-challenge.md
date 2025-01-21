@@ -15,7 +15,10 @@ tags:
 
 ومن ثم تظهر لك عدة بيانات منها 
 ```ruby
-`- https://mega.nz/#!z8hACJbb!vQB569ptyQjNEoxIwHrUhwWu5WCj1JWmU-OFjf90Prg -N17hGnFBfJliykJxXu8 -" , "Mp real_unlock_key: Nothing Is As It SeemsU" , "password: Really? Again" , "flag{Not_So_Simple...}
+`- https://mega.nz/#!z8hACJbb!vQB569ptyQjNEoxIwHrUhwWu5WCj1JWmU-OFjf90Prg -N17hGnFBfJliykJxXu8 -" ,
+"Mp real_unlock_key: Nothing Is As It SeemsU" ,
+"password: Really? Again" ,
+"flag{Not_So_Simple...} .
 ```
 
 
