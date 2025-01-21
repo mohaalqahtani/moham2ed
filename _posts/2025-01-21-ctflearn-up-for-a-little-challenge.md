@@ -13,7 +13,11 @@ tags:
 بإمكانك استخدام اداة `strings` , أو موقع [aperisolve][aperi-solve]
 
 
-ومن ثم تظهر لك عدة بيانات منها "`- https://mega.nz/#!z8hACJbb!vQB569ptyQjNEoxIwHrUhwWu5WCj1JWmU-OFjf90Prg -N17hGnFBfJliykJxXu8 -" , "Mp real_unlock_key: Nothing Is As It SeemsU" , "password: Really? Again" , "flag{Not_So_Simple...}" . 
+ومن ثم تظهر لك عدة بيانات منها 
+```ruby
+`- https://mega.nz/#!z8hACJbb!vQB569ptyQjNEoxIwHrUhwWu5WCj1JWmU-OFjf90Prg -N17hGnFBfJliykJxXu8 -" , "Mp real_unlock_key: Nothing Is As It SeemsU" , "password: Really? Again" , "flag{Not_So_Simple...}
+```
+
 
 المطلوب من هذه البيانات (الرابط , والعبارة الاولى ) نقوم بالدخول على الرابط , يظهر لنا ملف مضغوط بأسم "Up For A Little Challenge
 .zip" , بعد تحميله وفك الضغط عنه 
