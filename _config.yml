@@ -59,7 +59,6 @@ plugins:
 sass:
   custom_css: assets/css/custom.css
 
-
 author:
   name   : "Mohammed Al-Qahtani"
   avatar : "/assets/images/bio-photo.jpg"
