@@ -13,7 +13,7 @@ tags:
 <img src="https://img.shields.io/badge/easy-006600?style=for-the-badge&logoColor=white">
 
 
-في المجموعة الاولى : Translation & Shifting (الترجمة والتحويل)
+# في المجموعة الاولى : Translation & Shifting (الترجمة والتحويل)
 
 1- المهمة الاولى :
 
@@ -285,5 +285,26 @@ fe `_` ``e bh ``d ba `_h hf `_f `_` ba ``e `_c `_d ``d ba hf ba hg `_d ``e ba ``
 يظهر لنا الحل : `Let's make this a bit trickier...`
 
 
+# المجموعة الثانية : Spectrogram (مخطط طيفي)
+
+1- المهمة الاولى : 
+
+ملف صوتي مدته ثانتين بصوت غريب 
+
+ولكن عندما ***نضع** الملف الصوتي في برامج ومواقع تعديل الصوت 
+
+بأمكاننا تحليل الملف بطرق عدة ولكن الطريقة هنا واضحه بالمخطط الطيفي
+
+يوجد لدنيا برنامج [أوداسيتي][audacity] وموقع [مورس كود وورد][morsecodew]
+
+تتيح لنا التعديل على الملف الصوتي , بعد ان اخترنا المخطط الطيفي في برنامج أوداسيتي يظهر لنا الملف بهذا الشكل 
+
+<img src="assets/images/tryhackme-c4ptur3-th3-fl4g-spectrogram-audacity.png"
+
+
+
+
+
 [cyber-chef]: https://gchq.github.io/CyberChef/
-[aperi-solve]: https://www.aperisolve.com
+[audacity]: https://www.audacityteam.org/
+[morsecodew]: https://morsecode.world/international/decoder/audio-decoder-adaptive.html
