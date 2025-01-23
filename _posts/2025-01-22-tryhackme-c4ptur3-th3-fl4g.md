@@ -295,13 +295,87 @@ fe `_` ``e bh ``d ba `_h hf `_f `_` ba ``e `_c `_d ``d ba hf ba hg `_d ``e ba ``
 
 بأمكاننا تحليل الملف بطرق عدة ولكن الطريقة هنا واضحه بالمخطط الطيفي
 
-يوجد لدنيا برنامج [أوداسيتي][audacity] وموقع [مورس كود وورد][morsecodew]
+يوجد لدنيا برنامج [أوداسيتي][audacity] وموقع [مورس كود وورلد][morsecodew]
 
 تتيح لنا التعديل على الملف الصوتي , بعد ان اخترنا المخطط الطيفي في برنامج أوداسيتي يظهر لنا الملف بهذا الشكل 
 
 <img src="https://mohaalqahtani.github.io/moham2ed/assets/images/tryhackme-c4ptur3-th3-fl4g-spectrogram-audacity.png">
 
+وفي موقع مورس كود وورلد يظهر لنا بالشكل هذا 
 
+<img src="https://mohaalqahtani.github.io/moham2ed/assets/images/tryhackme-c4ptur3-th3-fl4g-spectrogram-morsecodew.png">
+
+بالتالي العلم هو : `Super Secret Message`
+
+# المجموعة الثالثة : Steganography (التخفي)
+
+1- المهمة الاولى : 
+
+صورة عشوائية بعد تفحصها بجميع الادوات لاتظهر لنا نتائج , من الادوات (binwalk , strings , foremost)
+
+ولكن اسم الصورة يوحي لشيء ؟! لنستكشف الامر 
+
+اسم الصورة : `stegosteg_1559008553457.jpg`
+
+من الواضح بإن يوجد نص مخفي بالصورة 
+
+واسم الصورة يوحي لأداة `steghide`
+
+نستخدم أمر `steghide --info stegosteg_1559008553457.jpg`
+
+يظهر لنا المخرج التالي : 
+```html
+"stegosteg_1559008553457.jpg":
+  format: jpeg
+  capacity: 2.5 KB
+Try to get information about embedded data ? (y/n) y
+Enter passphrase: 
+  embedded file "steganopayload2248.txt":
+    size: 13.0 Byte
+    encrypted: rijndael-128, cbc
+    compressed: yes
+```
+
+مما يؤكد وجود نص مخفي ، الان يجب ان نستخرج النص !
+
+نستخدم نفس الاداة ولكن يختلف الامر يصبح كالتالي : 
+```html
+steghide extract -sf stegosteg_1559008553457.jpg -xf ww.txt
+
+
+1- steghide الاداة المستخدمة
+2- extract الامر المرغوب بهذه الحالة استخراج
+3- -sf لتحديد الصورة (اسم الصورة المرغوب باستخراجها)
+4- الصورة
+5- -xf اسم الملف النصي الذي سيكون به النص المخفي 
+6- اسم الملف النصي الذي سيكون به النص المخفي
+```
+
+بعد تنفيذ امر الاستخراج سيتطلب منك كلمة السر ولكن بهذه الحالة بعد تفحص الصورة لايوجد اي شيء قد يدل على انه رمز سري بأمكانك الضغط على انتر وتجاوز الرمز السري 
+
+بعدها سينشئ لك ملف نصي بالاسم الذي اخترته وسيكون بداخله النص المخفي 
+
+الحل (النص المخفي) : `SpaghettiSteg`
+
+
+# المجموعة الرابعة : Security through obscurity (الأمن من خلال الغموض)
+
+ببداية الامر نستلم صورة نقوم مباشرة بفحصها بواسطة `strings`
+
+يظهر لنا بالاسفل
+```html
+"AHH_YOU_FOUND_ME!" 
+hackerchat.png
+```
+وهي فعليا الحل 
+
+اللغز الاول : `What is the first filename & extension?`
+
+الجواب : `hackerchat.png`
+
+اللغز الثاني : `Find the hidden text.`
+
+الجواب : `AHH_YOU_FOUND_ME!`
 
 
 
