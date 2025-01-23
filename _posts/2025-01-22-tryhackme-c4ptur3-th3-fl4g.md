@@ -299,7 +299,7 @@ fe `_` ``e bh ``d ba `_h hf `_f `_` ba ``e `_c `_d ``d ba hf ba hg `_d ``e ba ``
 
 تتيح لنا التعديل على الملف الصوتي , بعد ان اخترنا المخطط الطيفي في برنامج أوداسيتي يظهر لنا الملف بهذا الشكل 
 
-<img src="assets/images/tryhackme-c4ptur3-th3-fl4g-spectrogram-audacity.png"
+<img src="/assets/images/tryhackme-c4ptur3-th3-fl4g-spectrogram-audacity.png">
 
 
 
